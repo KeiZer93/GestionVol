@@ -1,5 +1,5 @@
 <?php
 
-class index{
+header("location: ../vue/Inscription.php");
 
-}
+?>

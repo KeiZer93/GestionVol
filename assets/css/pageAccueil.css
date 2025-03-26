@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #e3f2fd;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(45deg, #1e88e5, #039be5);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header .tagline {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #039be5;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #0288d1;
+}
+
+.main-content {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2em;
+    color: #1e88e5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section h3 {
+    font-size: 1.5em;
+    color: #0288d1;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #039be5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0288d1;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    width: calc(33% - 40px);
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card .content {
+    padding: 20px;
+}
+
+.card h4 {
+    font-size: 1.3em;
+    color: #0288d1;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #555;
+}
+
+footer {
+    background-color: #0288d1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 40px);
+    }
+
+    header {
+        font-size: 1.5em;
+    }
+
+    nav a {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    header {
+        font-size: 1.2em;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        padding: 15px;
+    }
+}
