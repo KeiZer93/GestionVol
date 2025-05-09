@@ -5,8 +5,8 @@ class Utilisateur
     private $id_utilisateur;
     private $nom_utilisateur;
     private $prenom_utilisateur;
-    private $mail_utilisateur;
-    private $mdp_utilisateur;
+    private $mail;
+    private $mot_de_passe;
     private $role_utilisateur;
     public function getIdUtilisateur(){
         return $this->id_utilisateur;
@@ -27,17 +27,17 @@ class Utilisateur
     public function setPrenomUtilisateur($prenom_utilisateur){
         $this->prenom_utilisateur = $prenom_utilisateur;
     }
-    public function getMailUtilisateur(){
-        return $this->login_utilisateur;
+    public function getMail(){
+        return $this->mail;
     }
-    public function setMailUtilisateur($login_utilisateur){
-        $this->login_utilisateur = $login_utilisateur;
+    public function setMail($mail){
+        $this->mail = $mail;
     }
-    public function getMdpUtilisateur(){
-        return $this->password_utilisateur;
+    public function getMotDePasse(){
+        return $this->mot_de_passe;
     }
-    public function setMdpUtilisateur($password_utilisateur){
-        $this->password_utilisateur = $password_utilisateur;
+    public function setMotDePasse($mot_de_passe){
+        $this->mot_de_passe = $mot_de_passe;
     }
     public function getRoleUtilisateur(){
         return $this->role_utilisateur;

@@ -114,7 +114,7 @@
 </header>
 
 <nav>
-    <a href="admin.php">Tableau de bord</a>
+    <a href="Admin.php">Tableau de bord</a>
     <a href="admin_utilisateurs.php">Utilisateurs</a>
     <a href="admin_reservations.php">Réservations</a>
     <a href="admin_avions.php">Avions</a>

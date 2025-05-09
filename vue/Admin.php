@@ -160,7 +160,7 @@
                     <button class="action-btn edit-btn">Modifier</button>
                     <button class="action-btn delete-btn">Annuler</button>
                 </td>
-            </tr>
+            </tr                                                                                                                          >
             </tbody>
         </table>
     </section>

@@ -60,7 +60,7 @@
         </label>
     </div>
     <div class="form-group form-button">
-        <input type="submit" name="signup" id="signup" class="form-submit" value="S'inscrire"/>
+        <a href="Connexion.php" class="button-link">S'inscrire</a>
     </div>
 </form>
 

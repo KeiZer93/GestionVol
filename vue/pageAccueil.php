@@ -59,8 +59,8 @@
 <footer>
     <p>&copy; 2025 PlaneExplorer | Tous droits réservés.</p>
     <p>
-        <a href="#">Mentions légales</a> |
-        <a href="#">Politique de confidentialité</a>
+        <a href="Conditions_d'utilisation.html">Mentions légales</a> |
+        <a href="Conditions_d'utilisation.html">Politique de confidentialité</a>
     </p>
 </footer>
 </body>

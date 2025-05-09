@@ -8,13 +8,12 @@
     <link rel="stylesheet" href="../assets/css/Avions.css">
 </head>
 <body>
-<!-- Header -->
+
 <header>
     <h1>PlaneExplorer</h1>
     <p class="tagline">Découvrez l'univers fascinant des avions</p>
 </header>
 
-<!-- Navigation -->
 <nav>
     <a href="#">Accueil</a>
     <a href="#">Utilisateur</a>
@@ -24,7 +23,6 @@
     <a href="#">Contact</a>
 </nav>
 
-<!-- Main Content -->
 <div class="main-content">
     <section>
         <h2>Le Boeing 747</h2>
@@ -76,7 +74,6 @@
     </section>
 </div>
 
-<!-- Footer -->
 <footer>
     <p>&copy; 2025 PlaneExplorer | Tous droits réservés.</p>
     <p>

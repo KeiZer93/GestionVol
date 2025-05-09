@@ -104,7 +104,6 @@ global$utilisateur; global$utilisateur; <!DOCTYPE html>
 <nav>
     <a href="espace_utilisateur.php">Profil</a>
     <a href="mes_reservations.php">Mes Réservations</a>
-    <a href="parametres.php">Paramètres</a>
     <a href="Deconnexion.php">Déconnexion</a>
 </nav>
 
